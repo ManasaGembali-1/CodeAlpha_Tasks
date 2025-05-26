@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>My Portfolio</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card" onclick="toggleDetails(this)">
+          <h3>Luxurious Cars Showcase</h3>
+          <div class="project-details">
+            <p>
+              An elegant web-based presentation of luxury car brands, their
+              features, and specifications. Built using HTML, CSS, and
+              JavaScript.
+            </p>
+
+            <div style="text-align: center">
+              <a
+                href="https://github.com/ManasaGembali-1/Apexplanet-Task-1.git"
+                class="resume-btn"
+                target="_blank"
+                >View
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" onclick="toggleDetails(this)">
+          <h3>To-Do List App</h3>
+          <div class="project-details">
+            <p>
+              A simple and sleek task management app using JavaScript and
+              localStorage for data persistence.
+            </p>
+            <div style="text-align: center">
+              <a
+                href="https://github.com/ManasaGembali-1/Portfolio/tree/main/TO-DO%20LIST"
+                class="resume-btn"
+                target="_blank"
+                >View
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" onclick="toggleDetails(this)">
+          <h3>Product Listing Page</h3>
+          <div class="project-details">
+            <p>
+              An e-commerce-style product catalog with sorting and filtering
+              features using dynamic JavaScript UI components.
+            </p>
+            <div style="text-align: center">
+              <a
+                href="https://github.com/ManasaGembali-1/Portfolio/tree/main/Product_listing"
+                class="resume-btn"
+                target="_blank"
+                >View
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" onclick="toggleDetails(this)">
+          <h3>Drowsiness Detection System</h3>
+          <div class="project-details">
+            <p>
+              Developed a real-time computer vision model that monitors eye
+              movement and yawning using OpenCV and Mediapipe. If signs of
+              drowsiness are detected, the system plays an alert sound.
+            </p>
+          </div>
+        </div>
+        <div class="project-card" onclick="toggleDetails(this)">
+          <h3>Face Recognition-Based Login System</h3>
+          <div class="project-details">
+            <p>
+              Created a secure login system where users authenticate using
+              facial features. Encodes user faces and matches live webcam feed
+              to stored encodings.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Manasa Gembali</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

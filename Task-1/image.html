@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Image Gallery</h1>
+
+    <div class="gallery">
+      <img src="car1.jpg" onclick="openModal(this.src)" alt="Image 1" />
+      <img src="car2.jpg" onclick="openModal(this.src)" alt="Image 2" />
+      <img src="car3.jpg" onclick="openModal(this.src)" alt="Image 3" />
+      <img src="car4.jpg" onclick="openModal(this.src)" alt="Image 4" />
+      <img src="car5.jpg" onclick="openModal(this.src)" alt="Image 1" />
+      <img src="car6.jpg" onclick="openModal(this.src)" alt="Image 2" />
+      <img src="car7.jpg" onclick="openModal(this.src)" alt="Image 3" />
+      <img src="car8.jpg" onclick="openModal(this.src)" alt="Image 4" />
+      <img src="car9.jpg" onclick="openModal(this.src)" alt="Image 1" />
+      <img src="car10.jpg" onclick="openModal(this.src)" alt="Image 2" />
+      <img src="car11.jpg" onclick="openModal(this.src)" alt="Image 3" />
+      <img src="car12.jpg" onclick="openModal(this.src)" alt="Image 4" />
+    </div>
+
+    <!-- Modal for full view -->
+    <div id="modal" class="modal" onclick="closeModal()">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImg" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
